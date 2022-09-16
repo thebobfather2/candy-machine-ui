@@ -715,9 +715,9 @@ const Home = (props: HomeProps) => {
             variant="caption"
             align="center"
             display="block"
-            style={{ marginTop: 7, color: "grey" }}
+            style={{ marginTop: 7, color: "white" }}
           >
-            Powered by METAPLEX
+            Powered by BOBBY RABBITS
           </Typography>
         </Paper>
       </Container>
