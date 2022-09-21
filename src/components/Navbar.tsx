@@ -7,14 +7,14 @@ const Container = styled("div")`
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     align-items:center;
 
     position: relative;
 `
 
 const Title = styled("h1")`
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 0;
     white-space: nowrap;
     font-family: 'Lobster', cursive;
@@ -23,7 +23,7 @@ const Title = styled("h1")`
 
 const Link = styled("a")`
     font-size: 1.5rem;
-    margin:1rem;
+    margin:0rem;
     cursor: pointer;
     color: #000000;
     text-decoration: none;
@@ -32,7 +32,7 @@ const Link = styled("a")`
     right: 5%;
 
     @media (max-width: 700px) {
-        position: initial;
+        position: absolute;
     } 
 
 `
@@ -40,8 +40,11 @@ const Link = styled("a")`
 const Navbar = () => {
     return (
         <Container>
-            <Title>
+            <Title style={{marginTop: "0px", marginLeft: "20px", marginBottom: "20px"}}>
                 Edd Fox
+            </Title>
+            <Title style={{fontSize: "0.6em", marginTop: "58px", marginLeft: "-155px", color: "white"}}>
+                from the creators of bobby rabbits
             </Title>
             <Link href="https://www.bobbyrabbits.com/#/EddFox">
                 About

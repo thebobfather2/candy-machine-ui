@@ -497,7 +497,7 @@ const Home = (props: HomeProps) => {
   `
   
   return (
-    <Container style={{ marginTop: 0}}>
+    <Container style={{ marginTop: 0, marginBottom: 10}}>
       <Container maxWidth="xs" style={{ position: "relative" }}>
         <EddFoxImage src="/eddfox.png" alt="eddfox"/>
         <Paper
